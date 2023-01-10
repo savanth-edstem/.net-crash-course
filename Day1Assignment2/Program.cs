@@ -1,4 +1,4 @@
-﻿double numberOne , numberTwo , numberThree = 0;
+﻿double numberOne , numberTwo , numberThree = 0.0;
 
 Console.Write("Enter first number: ");
 numberOne=Convert.ToDouble(Console.ReadLine());
