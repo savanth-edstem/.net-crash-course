@@ -1,6 +1,5 @@
 ﻿int balance = 5000;
 string run = string.Empty;
-bool verify = false;
 
 bool Verification()
 {
