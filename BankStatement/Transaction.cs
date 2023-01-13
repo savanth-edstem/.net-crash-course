@@ -1,0 +1,1 @@
+﻿public record Transaction(DateOnly Date,double Amount,string TransferTo);
