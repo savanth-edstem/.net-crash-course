@@ -11,7 +11,7 @@ class TransactionList
     public void AddTransaction(Transaction transaction)
     {
         _transactions.Add(transaction);
-       
+
     }
     public void PrintTransactions()
     {
@@ -26,7 +26,7 @@ class TransactionList
         double totalAmount=0.0;
         foreach (var item in _transactions)
         {
-            totalAmount += item.Amount;          
+            totalAmount += item.Amount;
 
         }
         return totalAmount;
