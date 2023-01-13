@@ -31,9 +31,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayAndList", "ArrayAndLis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day2Assmt1ATM", "Day2Assmt1ATM\Day2Assmt1ATM.csproj", "{5C318A85-CC5D-45A4-9C78-57F5CAF04565}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassConcept", "ClassConcept\ClassConcept.csproj", "{0985B218-CEEC-40CD-BD99-80F587BA5410}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassConcept", "ClassConcept\ClassConcept.csproj", "{0985B218-CEEC-40CD-BD99-80F587BA5410}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3AsmtAddressBook", "Day2AsmtAddressBook\Day3AsmtAddressBook.csproj", "{69083379-04ED-4670-85EC-BBABA511640A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day3AsmtAddressBook", "Day2AsmtAddressBook\Day3AsmtAddressBook.csproj", "{69083379-04ED-4670-85EC-BBABA511640A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrenchDeck", "FrenchDeck\FrenchDeck.csproj", "{8C90CB6F-DA0D-4685-B198-14C4D110A437}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart", "ShoppingCart\ShoppingCart.csproj", "{85810682-A131-42C0-98D8-653C1203A1D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,14 @@ Global
 		{69083379-04ED-4670-85EC-BBABA511640A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69083379-04ED-4670-85EC-BBABA511640A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69083379-04ED-4670-85EC-BBABA511640A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C90CB6F-DA0D-4685-B198-14C4D110A437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C90CB6F-DA0D-4685-B198-14C4D110A437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C90CB6F-DA0D-4685-B198-14C4D110A437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C90CB6F-DA0D-4685-B198-14C4D110A437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85810682-A131-42C0-98D8-653C1203A1D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85810682-A131-42C0-98D8-653C1203A1D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85810682-A131-42C0-98D8-653C1203A1D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85810682-A131-42C0-98D8-653C1203A1D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
