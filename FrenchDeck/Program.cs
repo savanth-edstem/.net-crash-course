@@ -1,6 +1,7 @@
-﻿DeckOfCards deck= new 
+﻿DeckOfCards deck = new DeckOfCards();
 try
 {
+	deck.AddToDeckOfcards();
 
 
 }
