@@ -24,11 +24,40 @@ class TransactionList
     public double Balance()
     {
         double totalAmount=0.0;
-        foreach (var item in _transactions)
+        foreach (var balance in _transactions)
         {
-            totalAmount += item.Amount;
+            totalAmount += balance.Amount;
 
         }
         return totalAmount;
+    }
+    public Transaction MostSpend()
+    {
+        double mostSpendAmount=0;
+        Transaction mostSpend= null;
+        foreach (var spendItem in _transactions)
+        {
+            if (spendItem.Amount < mostSpendAmount)
+            {
+                mostSpendAmount = spendItem.Amount;
+                mostSpend = spendItem;
+            }            
+        }
+        return mostSpend;
+        
+    }
+    public double MonthlyExpense(DateOnly startDate, DateOnly endDate)
+    {
+        double expense=0.0;
+        foreach (var expenseItem in _transactions)
+        {
+            if (expenseItem.Date > startDate && expenseItem.Date < endDate) {
+                if (expenseItem.Amount<0) 
+                {
+                    expense -= expenseItem.Amount;
+                }
+            }
+        }
+        return expense;
     }
 }

@@ -20,11 +20,23 @@ void Readfile()
         transactionList.AddTransaction(transaction);
     }
 }
+void FebruaryExpense()
+{
+  
+    DateOnly startdate = new DateOnly(2022, 2, 1);
+    DateOnly enddate = new DateOnly(2022, 2, 28);
+    double expense=transactionList.MonthlyExpense(startdate, enddate);
+    Console.WriteLine($"Total expense in February: {expense}");
+
+}
 try
 {
     Readfile();
     transactionList.PrintTransactions();
     Console.WriteLine($"Net Balance: {transactionList.Balance()}");
+    Console.Write($"Most Spend: {transactionList.MostSpend().Amount}");
+    Console.WriteLine($" On: {transactionList.MostSpend().TransferTo}");
+    FebruaryExpense();
 
 }
 catch (Exception)
